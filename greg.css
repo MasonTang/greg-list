@@ -10,10 +10,14 @@ body{
     color: black;
     box-sizing:border-box;
 }
+
 html{
     font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+}
 
 .clearfix:after {
   content: "";
@@ -31,16 +35,16 @@ nav.container{
 
 nav p {
     display: inline-block;
-    padding: 1rem 0 0 1.5rem;
+    padding: 0rem 0 0 1.5rem;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     
 }
 
 nav ul {
     display: inline-block;
     float:right;
-    padding: 1rem 2rem 0 0;
+    padding: 0.5rem 2rem 0 0;
 }
 
 nav ul li {
@@ -54,15 +58,64 @@ nav ul li a {
 }
 
 main.container {
-    margin: 6rem 0;
+    margin: 9rem 11rem;
     max-width: 100rem;
 }
 
 .search {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding: 0.4rem 0.2rem;
 }
 
 .magnifying-glass {
-    height: 3rem;
+    height: 4rem;
+    position:relative;
+    top: 10px;
     width: 3rem;
+    border: 1px solid grey;
+    margin-left: 2px;
 }
+
+.next-page ul {
+    list-style: none;
+    display: inline-block;
+    font-size: 0;
+    margin-top: 3rem;
+}
+
+.next-page ul li {
+    border: 1px solid grey;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: .2rem 1.2rem;
+    font-weight: 500;
+}
+
+#middle-box{
+    padding: .2rem 4rem;
+}
+
+.jobs {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+.jobs ul {
+    list-style: none;
+}
+
+.jobs ul li {
+    display: inline-block;
+    color: grey;
+}
+
+.jobs ul li:last-child {
+    padding-left: 10px;
+}
+
+.jobs ul li a{
+    font-weight: 600;
+    padding-left: 10px;
+    color: blue;
+}
+
